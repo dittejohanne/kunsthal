@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="da">
+
+
+<!-- Alt generelt
+............................................................. 
+-->
+
+<head>
+
+    <meta charset="utf-8" />
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+    <title>News | Exercise4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="keywords" content="XXX" />
+    <meta name="description" content="XXX" />
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/burger.css" rel="stylesheet">
+</head>
+
+
+
+<!-- Søg efter XXX, for at se rettelser ...............................................................
+-->
+
+
+
+<body>
+
+
+
+
+    <!-- Alt indhold i headeren
+............................................................. 
+-->
+    <header>
+
+        <img id="logo" src="img/kunsthallille.svg" alt="logo">
+        <h1>Kunsthal Aarhus</h1>
+
+        <nav id="menu">
+            <label for="tm" id="toggle-menu">Menu <span class="drop-icon">▾</span></label>
+            <input type="checkbox" id="tm">
+            <ul class="main-menu clearfix">
+                <li><a href="index.html">Startside</a></li>
+                <li><a href="#">Udstillinger
+                        <span class="drop-icon">▾</span>
+                        <label title="Toggle Drop-down" class="drop-icon" for="sm1">▾</label>
+                    </a>
+                    <input type="checkbox" id="sm1">
+                    <ul class="sub-menu">
+                        <li id="mw"><a href="museeums-walk.html">Museum Walk</a></li>
+                        <li><a href="https://www.fyrebox.com/play/water-from-ganges-river-i_Ddj0jeZ1V">Quiz</a></li>
+                        <li><a href="#">Efter besøget</a></li>
+                    </ul>
+                </li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#">Om Kunsthal Aarhus</a></li>
+            </ul>
+            <ul id="aabent">
+                <li>Åbent i dag Kl. 10-18</li>
+                <li><strong>DA</strong>/EN</li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <!-- Det unikke indhold på siden
+............................................................. 
+-->
+    <main>
+        <section class=guidet-tour>
+            <p class="guide">Guidet tour i udstilling 2</p>
+            <audio class="audio" src="audio/udstilling-af-kim-boem.m4a" controls preload="auto">
+            </audio>
+        </section>
+        <section class="oversigt_link">
+        <a href="museeums-walk.html">Tilbage til oversigt</a>
+        <p>Vælg din placering i rummet og læs eller lyt</p>
+        </section>
+        <section class="walk-container2">
+            <!-- SLET   <img id="udstilling2" src="img/walk/udstilling2.svg" alt="oversigtskort stueplan">-->
+
+
+            <a href="udstilling3.html"><img class="udstilling-nr" id="udstilling3" src="img/walk/3.svg" alt="udstilling3"></a>
+
+
+            <input id="myCheck" class="check-udstilling" checked="checked" type="checkbox" onclick="myFunction1()">
+            <input id="two" type="checkbox" onclick="myTwo1()">
+            <input id="three" type="checkbox" onclick="myThree1()">
+
+
+
+        </section>
+        <article id="boem" class="event-container">
+            <img src="img/ursula-nistrup.kalender.jpg" alt="Ursula Nistrup">
+            <div class="text-block-event">
+                <h3>Artist talk / <br>
+                    Ursula Nistrup</h3>
+                <h4>26.04.2019 <br>
+                    Kl.13-15</h4>
+                <p>Tirsdag den 23. april kl. 13.00-15.00
+                    inviterer Århus Kunstakademi i
+                    samarbejde med Kunsthal Aarhus
+                    til artist talk med billedkunstner </p>
+                <a href="https://www.facebook.com/pg/kunsthalaarhus/events/?ref=page_internal">Læs mere på Facebook</a>
+            </div>
+        </article>
+
+        <article id="toeren" class="event">
+            <div class="event-container">
+                <img src="img/curate-kalender.jpg" alt="How we curate">
+                <div class="text-block-event">
+                    <h3> How We Curate</h3>
+                    <h4>24.04.2019 <br>
+                        Kl.19-20:30</h4>
+                    <p>På kunstinstitutioner, udstillings-
+                        steder og i det offentlige rum ser vi
+                        resultaterne af kuratorers arbejde,
+                        men som besøgende får vi sjældent
+                        adgang til de praktiske og refleksive
+                        processer, der ligger forud for
+                        udstillingerne.</p>
+                    <a href="https://www.facebook.com/pg/kunsthalaarhus/events/?ref=page_internal">Læs mere på Facebook</a>
+                </div>
+            </div>
+        </article>
+
+
+        <article id="kagedrengen" class="event">
+            <div class="event-container">
+                <img src="img/celine-condorelli.jpg" alt="celine condorelli">
+                <div class="text-block-event">
+                    <h3> Forelæsning / <br> Celiné Condorelli</h3>
+                    <h4>03.05.2019 <br>
+                        Kl.19-20</h4>
+                    <p>Forud for åbningen af Céline Condorellis første udstilling i Danmark holder hun en forelæsning i sin nye installation, Vært, i Kunsthal Aarhus. Installationen, som består et af stort, sektionsopdelt gardin, er både et kunstværk og en udstillingsarkitektur.</p>
+                    <a href="https://www.facebook.com/pg/kunsthalaarhus/events/?ref=page_internal">Læs mere på Facebook</a>
+                </div>
+            </div>
+        </article>
+
+
+
+    </main>
+
+
+    <!-- Alt indhold i footeren
+............................................................. 
+-->
+    <footer>
+        <div id="info-footer">
+            <h2> Kunsthal Aarhus</h2> <address>J. M. Mørks gade 13 DK <br> 8000 Aarhus C Danmark</address>
+            <p>Tlf: +45 86 20 60 50</p>
+            <p>Info@kunsthal.dk</p>
+        </div>
+        <div id="ikon-footer">
+            <a href="https://www.facebook.com/kunsthalaarhus/">
+                <img src="img/ikoner/fb.svg" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/kunsthalaarhus/">
+                <img src="img/ikoner/insta.svg" alt="instagram">
+            </a>
+            <a href="https://twitter.com/KunsthalAarhus">
+                <img src="img/ikoner/twitter.svg" alt="twitter">
+            </a>
+            <a href="https://vimeo.com/user16006879">
+                <img src="img/ikoner/vimeo.svg" alt="vimeo">
+            </a>
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
